@@ -7,6 +7,6 @@ In order to run the whole application locally you will need:
 -   `npm` as package manager
 
 To start the application:
--   Head over to the repository `football-app` and run the command `npm run start`
+-   Head over to the repository `football-app` and run the command `npm i` and then `npm run start`
 
--   Head over to the repository `football-server` and run the command `npm run start:dev`
+-   Head over to the repository `football-server` and run the command `npm i` and then `npm run start:dev`
