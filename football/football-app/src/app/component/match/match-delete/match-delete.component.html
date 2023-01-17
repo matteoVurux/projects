@@ -1,0 +1,18 @@
+<h1 style="text-align: center;">Delete a match</h1>
+<form>
+    <div class="parent">
+        <div class="child">
+            <mat-form-field class="example-full-width">
+                <mat-label>Match slug</mat-label>
+                <input matInput placeholder="match_one" id="slug" [formControl]="matchDeleteForm">
+            </mat-form-field>
+
+            <div style="display:flex; justify-content:space-around">
+                <button style="background-color: red;" mat-dialog-close (click)="onClickDeleteMatchButton()"
+                    mat-raised-button>
+                    <mat-icon>delete</mat-icon>Delete
+                </button>
+            </div>
+        </div>
+    </div>
+</form>
