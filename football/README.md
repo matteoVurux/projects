@@ -3,6 +3,7 @@
 In order to run the whole application locally you will need:
 
 -   `Docker` installed locally
+-   `Angular` 
 -   `npm` as package manager
 
 To start the application:
