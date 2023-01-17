@@ -17,7 +17,7 @@ export class Match implements MatchInterface {
     @IsString()
     @ApiProperty({
         example: MATCH_REPOSITORY_MOCK[0].slug,
-        description: 'company slug'
+        description: 'match slug'
     })
     @Column({ unique: true })
     slug: string;
