@@ -1,2 +1,12 @@
-# projects
-- Football is a web application for tracking football-table matches,created with Angular as main front-end framework and NestJS for the back-end side with the aid of typescript.
+## Usage
+
+In order to run the whole application locally you will need:
+
+-   `Docker` installed locally
+-   `Angular` 
+-   `npm` as package manager
+
+To start the application:
+-   Head over to the repository `football-app` and run the command `npm i` and then `npm run start`
+
+-   Head over to the repository `football-server` and run the command `npm i` and then `npm run start:dev`
