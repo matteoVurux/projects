@@ -2,9 +2,10 @@
 -	Docker
 -	NestJS 
 -	MariaDB
--   MySQL
--   TypeORM
--   Typescript
+- MySQL
+- TypeORM
+- Typescript
+- Swagger
 
 ## Installation
 
